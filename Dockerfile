@@ -12,6 +12,6 @@ RUN python manage.py collectstatic --noinput
 
 LABEL maintainer="poornimabyregowda@gmail.com>"
 
-CMD gunicorn -c gunicorn.py "hello.wsgi:application"
+#CMD gunicorn -c gunicorn.py "hello.wsgi:application"
 
 CMD ["gunicorn", "-c", "gunicorn.py", "hello.wsgi:application"]
