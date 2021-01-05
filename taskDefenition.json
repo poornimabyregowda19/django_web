@@ -60,7 +60,7 @@
     "compatibilities": [
       "EC2"
     ],
-    "taskDefinitionArn": "arn:aws:ecs:us-east-1:061623132528:task-definition/RunDockerImage:2",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:061623132528:task-definition/RunDockerImage:3",
     "family": "RunDockerImage",
     "requiresAttributes": [
       {
@@ -92,9 +92,9 @@
     "requiresCompatibilities": [
       "EC2"
     ],
-    "networkMode": null,
+    "networkMode": "bridge",
     "cpu": "2048",
-    "revision": 2,
+    "revision": 3,
     "status": "ACTIVE",
     "inferenceAccelerators": null,
     "proxyConfiguration": null,
